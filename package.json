@@ -1,0 +1,20 @@
+{
+  "name": "React-Init-Boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate to start with, without tonns of shit I've seen over the web.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Why do you need tests, if React so awesome??\""
+  },
+  "author": "Alex Koch",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.3.0",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sass": "^1.3.3",
+    "reactify": "^1.1.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

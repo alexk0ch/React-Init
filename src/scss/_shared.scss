@@ -1,0 +1,17 @@
+@mixin font-facer($fontName, $fontFileName) {
+  font-family: $fontName;
+  src: url('../font/' + $fontFileName + '.eot');
+    src: url('../font/' + $fontFileName + '.eot?#iefix') format('embedded-opentype'),
+         url('../font/' + $fontFileName + '.woff') format('woff'),
+         url('../font/' + $fontFileName + '.ttf') format('truetype'),
+         url('../font/' + $fontFileName + '.svg#$fontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// @font-face {
+//   @include font-facer(
+//     avidomneslight, 
+//     avidomnes-light-webfont
+//   )
+// }
